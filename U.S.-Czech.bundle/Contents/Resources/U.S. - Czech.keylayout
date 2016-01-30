@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-01-30 at 04:00 (SEČ)-->
-<keyboard group="126" id="-27540" maxout="1" name="U.S. - Czech">
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-01-30 at 04:29 (SEČ)-->
+<keyboard group="126" id="-54" maxout="1" name="U.S. - Czech">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -262,21 +262,21 @@
 		</keyMap>
 		<keyMap index="2">
 			<key action="6" code="0"/>
-			<key code="1" output="S"/>
+			<key action="S 1" code="1"/>
 			<key code="2" output="D"/>
 			<key code="3" output="F"/>
 			<key code="4" output="H"/>
-			<key code="5" output="G"/>
-			<key code="6" output="Z"/>
+			<key action="G 1" code="5"/>
+			<key action="Z 1" code="6"/>
 			<key code="7" output="X"/>
-			<key code="8" output="C"/>
+			<key action="C 1" code="8"/>
 			<key code="9" output="V"/>
 			<key code="10" output="§"/>
 			<key code="11" output="B"/>
 			<key code="12" output="Q"/>
 			<key code="13" output="W"/>
 			<key action="7" code="14"/>
-			<key code="15" output="R"/>
+			<key action="R 1" code="15"/>
 			<key action="12" code="16"/>
 			<key code="17" output="T"/>
 			<key code="18" output="1"/>
@@ -298,7 +298,7 @@
 			<key action="8" code="34"/>
 			<key code="35" output="P"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="L"/>
+			<key action="L 1" code="37"/>
 			<key code="38" output="J"/>
 			<key code="39" output="&#x0027;"/>
 			<key code="40" output="K"/>
@@ -1138,6 +1138,10 @@
 			<when output="Ć" state="1"/>
 			<when output="Č" state="caron"/>
 		</action>
+		<action id="C 1">
+			<when output="C" state="none"/>
+			<when output="Ć" state="1"/>
+		</action>
 		<action id="D">
 			<when output="D" state="none"/>
 			<when output="Ď" state="caron"/>
@@ -1146,20 +1150,36 @@
 			<when output="G" state="none"/>
 			<when output="Ģ" state="1"/>
 		</action>
+		<action id="G 1">
+			<when output="G" state="none"/>
+			<when output="Ģ" state="1"/>
+		</action>
 		<action id="L">
 			<when output="L" state="none"/>
 			<when output="Ĺ" state="1"/>
 			<when output="Ľ" state="caron"/>
+		</action>
+		<action id="L 1">
+			<when output="L" state="none"/>
+			<when output="Ĺ" state="1"/>
 		</action>
 		<action id="R">
 			<when output="R" state="none"/>
 			<when output="Ŕ" state="1"/>
 			<when output="Ř" state="caron"/>
 		</action>
+		<action id="R 1">
+			<when output="R" state="none"/>
+			<when output="Ŕ" state="1"/>
+		</action>
 		<action id="S">
 			<when output="S" state="none"/>
 			<when output="Ś" state="1"/>
 			<when output="Š" state="caron"/>
+		</action>
+		<action id="S 1">
+			<when output="S" state="none"/>
+			<when output="Ś" state="1"/>
 		</action>
 		<action id="T">
 			<when output="T" state="none"/>
@@ -1169,6 +1189,10 @@
 			<when output="Z" state="none"/>
 			<when output="Ź" state="1"/>
 			<when output="Ž" state="caron"/>
+		</action>
+		<action id="Z 1">
+			<when output="Z" state="none"/>
+			<when output="Ź" state="1"/>
 		</action>
 		<action id="c">
 			<when output="c" state="none"/>
