@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.2.59 on 2016-01-30 at 04:35 (SEČ)-->
-<keyboard group="126" id="-54" maxout="1" name="U.S. - Czech">
+<!--Last edited by Ukelele version 3.0.2.59 on 2016-02-01 at 09:17 (SEČ)-->
+<keyboard group="126" id="-24820" maxout="1" name="U.S. - Czech">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -1037,6 +1037,7 @@
 			<when output="â" state="3"/>
 			<when output="ä" state="4"/>
 			<when output="ã" state="5"/>
+			<when output="ä" state="caron"/>
 		</action>
 		<action id="14">
 			<when output="e" state="none"/>
@@ -1111,6 +1112,7 @@
 			<when output="Â" state="3"/>
 			<when output="Ä" state="4"/>
 			<when output="Ã" state="5"/>
+			<when output="Ä" state="caron"/>
 		</action>
 		<action id="7">
 			<when output="E" state="none"/>
@@ -1296,6 +1298,7 @@
 		<action id="Å">
 			<when output="Á" state="none"/>
 			<when output="Á" state="1"/>
+			<when output="Ä" state="caron"/>
 		</action>
 		<action id="Ç">
 			<when output="Č" state="none"/>
@@ -1329,6 +1332,7 @@
 		<action id="å">
 			<when output="á" state="none"/>
 			<when output="á" state="1"/>
+			<when output="ä" state="caron"/>
 		</action>
 		<action id="ç">
 			<when output="č" state="none"/>
