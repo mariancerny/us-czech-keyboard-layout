@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-03-30 at 09:34 (SELČ)-->
+<!--Last edited by Ukelele version 3.0.4.75 on 2016-06-17 at 03:36 (SELČ)-->
 <keyboard group="126" id="-15779" name="U.S. - Czech" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -383,7 +383,7 @@
 			<key code="10" output="§"/>
 			<key code="11" output=""/>
 			<key code="12" output="ä"/>
-			<key code="13" output="ě"/>
+			<key code="13" output="é"/>
 			<key code="14" action="0"/>
 			<key code="15" action="®"/>
 			<key code="16" action="¥"/>
@@ -408,7 +408,7 @@
 			<key code="35" output="ô"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="¬"/>
-			<key code="38" output="ů"/>
+			<key code="38" output="ú"/>
 			<key code="39" output=""/>
 			<key code="40" output="ĺ"/>
 			<key code="41" output="ů"/>
@@ -517,7 +517,7 @@
 			<key code="35" output="Ô"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="Ò"/>
-			<key code="38" output="Ů"/>
+			<key code="38" output="Ú"/>
 			<key code="39" output=""/>
 			<key code="40" output="Ĺ"/>
 			<key code="41" output="Ů"/>
@@ -601,8 +601,8 @@
 			<key code="10" output="§"/>
 			<key code="11" output="ı"/>
 			<key code="12" output="Œ"/>
-			<key code="13" output="∑"/>
-			<key code="14" output="É"/>
+			<key code="13" output="É"/>
+			<key code="14" output="Ě"/>
 			<key code="15" output="Ř"/>
 			<key code="16" output="Ý"/>
 			<key code="17" output="Ť"/>
@@ -620,13 +620,13 @@
 			<key code="29" output="º"/>
 			<key code="30" output="‘"/>
 			<key code="31" output="Ó"/>
-			<key code="32" output="Ú"/>
+			<key code="32" output="Ů"/>
 			<key code="33" output="Ú"/>
 			<key code="34" output="Í"/>
 			<key code="35" output="∏"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="Ľ"/>
-			<key code="38" output="Ô"/>
+			<key code="38" output="Ú"/>
 			<key code="39" output="Æ"/>
 			<key code="40" output="˚"/>
 			<key code="41" output="Ů"/>
@@ -1001,7 +1001,7 @@
 			<when state="none" next="1"/>
 		</action>
 		<action id="0">
-			<when state="none" output="é"/>
+			<when state="none" output="ě"/>
 			<when state="1" output="é"/>
 			<when state="caron" output="ě"/>
 		</action>
@@ -1087,7 +1087,7 @@
 			<when state="1" output="í"/>
 		</action>
 		<action id="3">
-			<when state="none" output="ú"/>
+			<when state="none" output="ů"/>
 			<when state="1" output="ú"/>
 			<when state="caron" output="ů"/>
 		</action>
@@ -1260,7 +1260,7 @@
 			<when state="1" output="ý"/>
 		</action>
 		<action id="¨">
-			<when state="none" output="Ú"/>
+			<when state="none" output="Ů"/>
 			<when state="1" output="Ú"/>
 			<when state="caron" output="Ů"/>
 		</action>
@@ -1279,7 +1279,7 @@
 			<when state="caron" output="ř"/>
 		</action>
 		<action id="´">
-			<when state="none" output="É"/>
+			<when state="none" output="Ě"/>
 			<when state="1" output="É"/>
 			<when state="caron" output="Ě"/>
 		</action>
@@ -1370,7 +1370,7 @@
 			<when state="caron" output="ž"/>
 		</action>
 		<action id="„">
-			<when state="none" output="Ě"/>
+			<when state="none" output="É"/>
 		</action>
 		<action id="†">
 			<when state="none" output="ť"/>
