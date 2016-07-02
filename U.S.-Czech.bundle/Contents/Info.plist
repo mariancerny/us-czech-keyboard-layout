@@ -15,5 +15,12 @@
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
+	<key>KLInfo_U.S. - Slovak</key>
+	<dict>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.u.s.-czech.u.s.-slovak</string>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
 </dict>
 </plist>
