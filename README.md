@@ -2,6 +2,29 @@
 
 Ideal keyboard layout (not only) for Czech programmers.
 
+## Installation
+
+Type the following commands in Terminal:
+
+    git clone https://github.com/mariancerny/us-czech-keyboard-layout
+    cd us-czech-keyboard-layout
+    make install
+
+Add the new layout as an input source in `System Preferences` > `Keyboard` > `Input Sources`:
+
+![Installation](preview/installation-add.png)
+
+Switch to new layout in Input menu in the menu bar
+
+![Installation](preview/installation-select.png)
+
+or remove other layous (you won't need other layouts any more).
+
+If this is your first install, the new layout should work right away.
+If you are updating the layout, you need to log out or restart the computer.
+
+## Layout
+
 Standard US layout:
 
 ![Default](preview/default.png)
