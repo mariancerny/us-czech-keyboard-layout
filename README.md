@@ -6,6 +6,7 @@ Ideal keyboard layout (not only) for Czech programmers.
 
 Type the following commands in Terminal:
 
+    cd ~/Downloads
     git clone https://github.com/mariancerny/us-czech-keyboard-layout
     cd us-czech-keyboard-layout
     make install
