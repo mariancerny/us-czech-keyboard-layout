@@ -10,6 +10,8 @@
 	<string></string>
 	<key>KLInfo_U.S. - Czech</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.u.s.-czech.u.s.-czech</string>
 		<key>TISIntendedLanguage</key>
@@ -17,6 +19,8 @@
 	</dict>
 	<key>KLInfo_U.S. - Slovak</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.u.s.-czech.u.s.-slovak</string>
 		<key>TISIntendedLanguage</key>
