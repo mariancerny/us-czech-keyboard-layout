@@ -7,9 +7,9 @@ Ideal keyboard layout (not only) for Czech programmers.
 Type the following commands in Terminal:
 
     cd ~/Downloads
-    git clone https://github.com/mariancerny/us-czech-keyboard-layout
-    cd us-czech-keyboard-layout
-    make install
+    curl -OJ https://codeload.github.com/mariancerny/us-czech-keyboard-layout/zip/master
+    unzip us-czech-keyboard-layout-master.zip
+    sh us-czech-keyboard-layout-master/install.sh
 
 Add the new layout as an input source in `System Preferences` > `Keyboard` > `Input Sources`:
 
