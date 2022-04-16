@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-04-16 at 22:33 (CEST)-->
+<!--Last edited by Ukelele version 351 on 2022-04-16 at 23:13 (CEST)-->
 <keyboard group="126" id="-7646" name="U.S. - Slovak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -413,11 +413,11 @@
 			<key code="40" output="ĺ"/>
 			<key code="41" output="ô"/>
 			<key code="42" action="1 1"/>
-			<key code="43" output=""/>
+			<key code="43" output="„"/>
 			<key code="44" output=""/>
 			<key code="45" action="4"/>
 			<key code="46" output=""/>
-			<key code="47" output=""/>
+			<key code="47" output="“"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action=" "/>
 			<key code="50" action="1"/>
@@ -522,11 +522,11 @@
 			<key code="40" output="Ĺ"/>
 			<key code="41" output="Ô"/>
 			<key code="42" action="5 1"/>
-			<key code="43" output=""/>
+			<key code="43" output="‚"/>
 			<key code="44" output="¿"/>
 			<key code="45" action="˜"/>
 			<key code="46" output=""/>
-			<key code="47" output=""/>
+			<key code="47" output="‘"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action="  1"/>
 			<key code="50" output="`"/>
