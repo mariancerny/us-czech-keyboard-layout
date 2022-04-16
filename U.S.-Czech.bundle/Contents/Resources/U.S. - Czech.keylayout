@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 351 on 2022-04-16 at 21:34 (CEST)-->
+<!--Last edited by Ukelele version 351 on 2022-04-16 at 22:33 (CEST)-->
 <keyboard group="126" id="-15779" name="U.S. - Czech" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -412,7 +412,7 @@
 			<key code="39" output=""/>
 			<key code="40" output="ĺ"/>
 			<key code="41" output="ů"/>
-			<key code="42" output=""/>
+			<key code="42" action="1 1"/>
 			<key code="43" output=""/>
 			<key code="44" output=""/>
 			<key code="45" action="4"/>
@@ -521,7 +521,7 @@
 			<key code="39" output=""/>
 			<key code="40" output="Ĺ"/>
 			<key code="41" output="Ů"/>
-			<key code="42" output=""/>
+			<key code="42" action="5 1"/>
 			<key code="43" output=""/>
 			<key code="44" output="¿"/>
 			<key code="45" action="˜"/>
@@ -1008,6 +1008,9 @@
 		<action id="1">
 			<when state="none" next="2"/>
 		</action>
+		<action id="1 1">
+			<when state="none" next="4"/>
+		</action>
 		<action id="10">
 			<when state="none" output="O"/>
 			<when state="1" output="Ó"/>
@@ -1104,6 +1107,9 @@
 			<when state="4" output="¨"/>
 			<when state="5" output="˜"/>
 			<when state="caron" output="ˇ"/>
+		</action>
+		<action id="5 1">
+			<when state="none" next="5"/>
 		</action>
 		<action id="6">
 			<when state="none" output="A"/>
