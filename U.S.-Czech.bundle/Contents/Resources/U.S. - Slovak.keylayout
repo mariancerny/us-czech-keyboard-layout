@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.0.288 on 2019-09-19 at 10:38 (CEST)-->
+<!--Last edited by Ukelele version 351 on 2022-04-16 at 21:34 (CEST)-->
 <keyboard group="126" id="-7646" name="U.S. - Slovak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
@@ -497,7 +497,7 @@
 			<key code="15" action="‰"/>
 			<key code="16" action="Á"/>
 			<key code="17" action="ˇ 1"/>
-			<key code="18" output=""/>
+			<key code="18" output="¡"/>
 			<key code="19" output="€"/>
 			<key code="20" output=""/>
 			<key code="21" output=""/>
@@ -523,7 +523,7 @@
 			<key code="41" output="Ô"/>
 			<key code="42" output=""/>
 			<key code="43" output=""/>
-			<key code="44" output=""/>
+			<key code="44" output="¿"/>
 			<key code="45" action="˜"/>
 			<key code="46" output=""/>
 			<key code="47" output=""/>
