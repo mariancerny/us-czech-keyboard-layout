@@ -5,8 +5,8 @@ cd $BASEDIR
 
 set -ex
 
-sudo cp -R U.S.-Czech.bundle/ /Library/Keyboard\ Layouts/U.S.-Czech.bundle/
-sudo touch /Library/Keyboard\ Layouts
+sudo cp -R U.S.-Czech.bundle/ ~/Library/Keyboard\ Layouts/U.S.-Czech.bundle/
+sudo touch ~/Library/Keyboard\ Layouts
 
 { set +x; } 2>/dev/null
 
