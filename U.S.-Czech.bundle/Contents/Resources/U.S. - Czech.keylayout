@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 452 on 2026-01-19-->
-<keyboard group="126" id="-15779" name="U.S. - Czech" maxout="1">
+<!--Last edited by Ukelele version 457 on 2026-10-02 at 00:26 (CEST)-->
+<keyboard group="126" id="-13654" name="U.S. - Czech" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="984" modifiers="f4"/>
@@ -377,11 +377,11 @@
 			<key code="4" output=""/>
 			<key code="5" action="©"/>
 			<key code="6" action="Ω"/>
-			<key code="7" output=""/>
+			<key code="7" output="×"/>
 			<key code="8" action="ç"/>
-			<key code="9" output=""/>
+			<key code="9" output="✓"/>
 			<key code="10" output="§"/>
-			<key code="11" output=""/>
+			<key code="11" output="•"/>
 			<key code="12" output="ä"/>
 			<key code="13" output="é"/>
 			<key code="14" action="0"/>
@@ -486,11 +486,11 @@
 			<key code="4" output=""/>
 			<key code="5" action="˝"/>
 			<key code="6" action="¸"/>
-			<key code="7" output=""/>
+			<key code="7" output="✕"/>
 			<key code="8" action="Ç"/>
-			<key code="9" output=""/>
+			<key code="9" output="✓"/>
 			<key code="10" output="±"/>
-			<key code="11" output=""/>
+			<key code="11" output="•"/>
 			<key code="12" output="Ä"/>
 			<key code="13" action="„"/>
 			<key code="14" action="´"/>
